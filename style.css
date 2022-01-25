@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFF1FA;
+  font-family: Poppins, sans-serif;
+  margin-top: 5%;
+}
+
+.alura-logo{
+  position: absolute;
+  left: 3%;
+  top: 5%;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form-box{
+  width: 30vw;
+}
+
+.text-input{
+  border-radius: 0.5em;
+  border: none;
+  background-color: #EFF1FA;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  color:#0A3871;
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 60vh;
+  outline: none;
+  resize: none;
+  margin-top: 5%;
+}
+
+
+.btn-div{
+  justify-content: center;
+  text-align: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.msg-box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #0A3871;
+  border-radius: 0.8em;
+  width: 20vw;
+  height: auto;
+  outline: none;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.btnEncriptar , .btnCopiar {
+  width: 228px;
+  height: 57px;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  background-color: #0A3871;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 24px;
+  line-height: 1.5rem;
+
+}
+
+.btnCopiar{
+  color: #0A3871;
+  background-color: white;
+  border: 1px solid #0A3871;
+  margin-top: 50px;
+}
+
+.btnDesencriptar {
+  margin-left: 20px;
+  font-size: 16px;
+  width: 228px;
+  height: 57px;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  color: #0A3871;
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 24px;
+  border: 1px solid #0A3871;
+  line-height: 1.5rem;
+}
+
+
+.img-exclamacion{
+  margin-bottom: -2px;
+}
+
+.box-icon{
+  color: #0A3871;
+}
+
+.text-msg {
+  border-radius: 0.5em;
+  border: none;
+  
+  background-color: #ffffff; 
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+  color:#363d61d5;
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 60vh;
+  outline: none;
+  resize: none;
+}
+
+.footer nav{
+  margin-left: 40px;
+  margin-top: 50px;
+  justify-content: space-between;
+  display: flex;
+  width: 20%;
+}
+.footer img{
+  width: 50px;
+}
+
+.footer p{
+  margin-top: 15px;
+  color: #0A3871;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+

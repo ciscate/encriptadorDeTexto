@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagenes/archivo-encriptado.png" />
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="https://www.aluracursos.com/" target="_blank" rel="noopener noreferrer"><img src="imagenes/Logo.svg" class="alura-logo" alt="logo-alura"></a>
+  </header>
+
+  <main class="main">
+    <section class="form box form-box">
+      <form action="">
+        <textarea class="input text-input" rows="10" cols="10" name="input-texto" id="input-texto" placeholder="Introduzca texto a encriptar/desencriptar..."></textarea>
+        <label for="input-texto"><Solo  class="box-icon" name='error-circle' type='solid' size="1rem" ><img  class="img-exclamacion" src="imagenes/bi_exclamation-circle-fill.png" alt=""> Solo letras minúsculas y sin acento...</label>
+        <div class="btn-div">
+        <input class="btn btnEncriptar" type="button" value="Encriptar" id="btn-encriptar">
+        <input class="btn btnDesencriptar" type="button" value="Desencriptar" id="btn-desencriptar">
+        </div>
+      </form>
+    </section>
+
+    <section class="msg box msg-box">
+      <textarea class="text-msg" rows="10" cols="10"   id="msg"></textarea>
+      <input class="btn btnCopiar" type="submit" value="Copiar" id="btn-copiar">
+      <div id="texto-copiado" ></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <nav class="footer-nav">
+      <p>Developed by Ciscate | © 2022</p>
+      <a href="https://www.linkedin.com/in/francisco-gonzalez-1a3344143/" target="_blank"><img src="imagenes/linkedin.png" alt="linked-in"></a>
+      <a href="https://github.com/ciscate" target="_blank"><img src="imagenes/github.png" alt="github"></a>
+    </nav>
+  </footer>
+  <script src="main.js"></script>
+  
+</body>
+</html>
